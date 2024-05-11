@@ -220,6 +220,7 @@ response = chat.send_message(system_instruction + ' Crie uma copy completa com o
 print(response.text)
 print(' \n\n ============================================================= \n\n')
 print('Deseja gerar o código da Landing Page?\n\n')
+print('Escreva com letras maiusculas\n\n')
 gerar_lp = input('SIM | NÃO\n')
 
 if gerar_lp == "SIM":
